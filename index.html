@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Top10 Selective Prep - Home</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>Top10 Selective Prep</h1>
+  <p>Helping your child excel into NSW’s top 10% selective schools</p>
+</header>
+
+<nav>
+  <a href="#english">English</a>
+  <a href="#math">Mathematics</a>
+  <a href="#general-ability">General Ability</a>
+  <a href="#spelling">Spelling & Vocabulary</a>
+  <a href="#exam-skills">Exam Skills</a>
+</nav>
+
+<main>
+  <section class="intro">
+    <h2>Welcome to Top10 Selective Prep</h2>
+    <p>Your child’s journey to the top 10% in NSW’s selective and scholarship tests begins here. Interactive lessons, practice quizzes, and expert tips designed especially for homeschooling families.</p>
+  </section>
+
+  <section class="subjects">
+
+    <article id="english" class="subject-card">
+      <h3>English</h3>
+      <p>Engage with reading comprehension passages, vocabulary games, creative writing prompts, and grammar exercises to sharpen your child's skills.</p>
+      <button class="btn" onclick="alert('English resources coming soon!')">Explore English</button>
+    </article>
+
+    <article id="math" class="subject-card">
+      <h3>Mathematics</h3>
+      <p>Practice number problems, algebra puzzles, mental maths drills, and review past test questions with guided solutions.</p>
+      <button class="btn" onclick="alert('Mathematics resources coming soon!')">Explore Mathematics</button>
+    </article>
+
+    <article id="general-ability" class="subject-card">
+      <h3>General Ability</h3>
+      <p>Boost logical reasoning and pattern recognition with interactive puzzles and verbal/non-verbal reasoning exercises.</p>
+      <button class="btn" onclick="alert('General Ability resources coming soon!')">Explore General Ability</button>
+    </article>
+
+    <article id="spelling" class="subject-card">
+      <h3>Spelling & Vocabulary</h3>
+      <p>Take weekly spelling challenges and vocabulary quizzes to build confidence and accuracy.</p>
+      <button class="btn" onclick="alert('Spelling & Vocabulary resources coming soon!')">Explore Spelling & Vocabulary</button>
+    </article>
+
+    <article id="exam-skills" class="subject-card">
+      <h3>Exam Skills & Tips</h3>
+      <p>Learn time management, multiple choice strategies, and stress reduction techniques for exam day success.</p>
+      <button class="btn" onclick="alert('Exam Skills resources coming soon!')">Explore Exam Skills</button>
+    </article>
+  </section>
+
+  <section id="quiz-section">
+    <h2>Try a Quick English Reading Quiz!</h2>
+    <p><strong>Passage:</strong> "The curious cat crept silently through the garden, its eyes fixed on the fluttering butterfly."</p>
+    <form id="quiz-form">
+      <label>1. What is the cat doing in the passage?<br/>
+        <input type="text" name="q1" required />
+      </label><br/><br/>
+      <label>2. Why is the cat moving silently?<br/>
+        <input type="text" name="q2" required />
+      </label><br/><br/>
+      <label>3. What is the cat’s attention focused on?<br/>
+        <input type="text" name="q3" required />
+      </label><br/><br/>
+      <button type="submit" class="btn">Submit Answers</button>
+    </form>
+    <div id="quiz-feedback"></div>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Top10 Selective Prep | Designed for Homeschool Families
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

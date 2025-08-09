@@ -1,0 +1,106 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+  margin: 0; padding: 0;
+  color: #333;
+}
+header {
+  background: #0073e6;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-weight: 700;
+}
+nav {
+  background: #005bb5;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1.2rem;
+  font-weight: 600;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.intro {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.intro h2 {
+  font-weight: 600;
+  color: #004080;
+}
+.subjects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+  gap: 1.5rem;
+}
+.subject-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  transition: transform 0.2s ease;
+}
+.subject-card:hover {
+  transform: translateY(-5px);
+}
+.subject-card h3 {
+  margin-top: 0;
+  color: #0073e6;
+}
+.subject-card p {
+  color: #555;
+  line-height: 1.4;
+}
+footer {
+  background: #003366;
+  color: #ddd;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
+/* Button style */
+.btn {
+  background: #0073e6;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 1rem;
+  display: inline-block;
+  text-align: center;
+}
+.btn:hover {
+  background: #005bb5;
+}
+/* Quiz section style */
+#quiz-section {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 3rem;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+#quiz-section h2 {
+  color: #004080;
+}
+#quiz-feedback {
+  margin-top: 1rem;
+  font-weight: 600;
+}
